@@ -18,12 +18,12 @@ const WIN_X64 = "win32_x64";
 const WIN_ARM = "win32_arm64";
 
 const URL_MAP = {
-  [MAC_ARM]: `https://nodejs.org/download/release/${NODE_VERSION}/node-${NODE_VERSION}-darwin-arm64.tar.gz`,
-  [MAC_X64]: `https://nodejs.org/download/release/${NODE_VERSION}/node-${NODE_VERSION}-darwin-x64.tar.gz`,
-  [LNX_ARM]: `https://nodejs.org/download/release/${NODE_VERSION}/node-${NODE_VERSION}-linux-arm64.tar.gz`,
-  [LNX_X64]: `https://nodejs.org/download/release/${NODE_VERSION}/node-${NODE_VERSION}-linux-x64.tar.gz`,
-  [WIN_X64]: `https://nodejs.org/download/release/${NODE_VERSION}/node-${NODE_VERSION}-win-x64.zip`,
-  [WIN_ARM]: `https://nodejs.org/download/release/${NODE_VERSION}/node-${NODE_VERSION}-win-arm64.zip`,
+  [MAC_ARM]: `https://npmmirror.com/mirrors/node/${NODE_VERSION}/node-${NODE_VERSION}-darwin-arm64.tar.gz`,
+  [MAC_X64]: `https://npmmirror.com/mirrors/node/${NODE_VERSION}/node-${NODE_VERSION}-darwin-x64.tar.gz`,
+  [LNX_ARM]: `https://npmmirror.com/mirrors/node/${NODE_VERSION}/node-${NODE_VERSION}-linux-arm64.tar.gz`,
+  [LNX_X64]: `https://npmmirror.com/mirrors/node/${NODE_VERSION}/node-${NODE_VERSION}-linux-x64.tar.gz`,
+  [WIN_X64]: `https://npmmirror.com/mirrors/node/${NODE_VERSION}/node-${NODE_VERSION}-win-x64.zip`,
+  [WIN_ARM]: `https://npmmirror.com/mirrors/node/${NODE_VERSION}/node-${NODE_VERSION}-win-arm64.zip`,
 };
 
 const SRC_BIN_MAP = {

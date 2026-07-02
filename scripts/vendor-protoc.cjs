@@ -17,12 +17,12 @@ const WIN_X64 = "win32_x64";
 const WIN_ARM = "win32_arm64";
 
 const URL_MAP = {
-  [MAC_ARM]: `https://github.com/protocolbuffers/protobuf/releases/download/v${VERSION}/protoc-${VERSION}-osx-aarch_64.zip`,
-  [MAC_X64]: `https://github.com/protocolbuffers/protobuf/releases/download/v${VERSION}/protoc-${VERSION}-osx-x86_64.zip`,
-  [LNX_ARM]: `https://github.com/protocolbuffers/protobuf/releases/download/v${VERSION}/protoc-${VERSION}-linux-aarch_64.zip`,
-  [LNX_X64]: `https://github.com/protocolbuffers/protobuf/releases/download/v${VERSION}/protoc-${VERSION}-linux-x86_64.zip`,
-  [WIN_X64]: `https://github.com/protocolbuffers/protobuf/releases/download/v${VERSION}/protoc-${VERSION}-win64.zip`,
-  [WIN_ARM]: `https://github.com/protocolbuffers/protobuf/releases/download/v${VERSION}/protoc-${VERSION}-win64.zip`,
+  [MAC_ARM]: `https://ghproxy.net/https://github.com/protocolbuffers/protobuf/releases/download/v${VERSION}/protoc-${VERSION}-osx-aarch_64.zip`,
+  [MAC_X64]: `https://ghproxy.net/https://github.com/protocolbuffers/protobuf/releases/download/v${VERSION}/protoc-${VERSION}-osx-x86_64.zip`,
+  [LNX_ARM]: `https://ghproxy.net/https://github.com/protocolbuffers/protobuf/releases/download/v${VERSION}/protoc-${VERSION}-linux-aarch_64.zip`,
+  [LNX_X64]: `https://ghproxy.net/https://github.com/protocolbuffers/protobuf/releases/download/v${VERSION}/protoc-${VERSION}-linux-x86_64.zip`,
+  [WIN_X64]: `https://ghproxy.net/https://github.com/protocolbuffers/protobuf/releases/download/v${VERSION}/protoc-${VERSION}-win64.zip`,
+  [WIN_ARM]: `https://ghproxy.net/https://github.com/protocolbuffers/protobuf/releases/download/v${VERSION}/protoc-${VERSION}-win64.zip`,
 };
 
 const SRC_BIN_MAP = {
